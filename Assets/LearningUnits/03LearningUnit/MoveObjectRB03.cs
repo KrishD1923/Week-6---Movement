@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveObjectRB03 : MonoBehaviour
 {
     Rigidbody rigidbody;
-    Vector3 moveDirection;
+    [SerializeField] Vector3 moveDirection;
     // Start is called before the first frame update
     void Start()
     {
